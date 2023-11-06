@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(135, 136, 136);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vh;
+  gap: 50px;
+  margin:0 auto;
+   width:960px;
+}
+
+.heading {
+  color: aqua;
+  text-shadow: 2px 2px 20px aqua;
+  letter-spacing: 3px;
+}
+.container {
+  background-color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px;
+  height: 80vh;
+}
+.baslik {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 25px;
+  border: none;
+}
+.baslik input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+form {
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.isim {
+  border: none;
+}
+
+.double {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 30px;
+  font-size: 20px;
+  border: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
+input {
+  outline: none;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.formstate {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.urun,
+.fiyat {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.ekle {
+  color: white;
+  border-radius: 30px;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+  padding: 10px 50px;
+}
+
+.double2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 30px;
+  font-size: 20px;
+  border: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fiyat input{
+
+margin-bottom: 20px;
+
+}
+
+.harcama input{
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+
+}
+.toplam {
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  font-size: 30px;
+  border-radius: 30px;
+  letter-spacing: 3px;
+}
+.toplam span {
+  color: aqua;
+}
+
+.expence {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  gap: 15px;
+  box-shadow: 2px 26px 26px 0px rgba(0, 0, 0, 0.68);
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list{
+padding: 30px 15px;
+overflow-y: auto;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 45px;
+}
+
+.buttons img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.expence h2:nth-last-child(2) {
+  color: red;
+}
+
+.payed{
+  opacity: 0.7;
+} 
+.payed h2:nth-child(1) {
+  text-decoration: line-through;
+}
+.payed h2:nth-child(2) {
+  color: green;
+}
